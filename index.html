@@ -1,0 +1,37 @@
+<html>
+<head>
+    <title>My photography</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<link href="main.js">
+
+<body>
+    <header>
+        <h1 class="active">Welcome to the beautiful site of positivity and nature!</h1>
+        <h5 id="date"></h5>
+        <h5 id="time"></h5>
+        <script>
+            var today = new Date();
+
+            var date = today.getDate() + '-' + (today.getMonth() + 1) + '-' + today.getFullYear();
+
+            var dateTime = date + ' ' + time;
+            document.getElementById("date").innerHTML = date;
+        </script>
+    </header>
+    <div class="image-section">
+        <span><img src="50df34b9e93f30269853b96b09c37e3b.jpg">
+            <p>Forget not that the earth delights to feel your bare feet and the winds long to play with your hair.</p>
+            <img src="environment-earth-day-hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-gra-130247647.jpg">
+            <p> Look deep into nature, and then you will understand everything better.</p>
+            <img src="nature-1024x682.jpeg">
+            <p>Heaven is under our feet as well as over our heads</p>
+            <img src="road-1072823__340.jpg">
+            <p> To me a lush carpet of pine needles or spongy grass is more welcome than the most luxurious Persian rug.</p>
+            <img src="stock-photo-142984111.jpg">
+            <p>We don’t inherit the earth from our ancestors, we borrow it from our children.</p>
+            <img src="wp2568543.jpg">
+            <p> Nature does not hurry, yet everything is accomplished.</p>
+        </span>
+    </div>
+</body></html>
